@@ -1,0 +1,11 @@
+.wishlist-section {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-height: calc(100vh - 14rem);
+    flex-wrap: wrap;
+  }
