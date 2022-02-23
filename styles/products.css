@@ -1,0 +1,61 @@
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 20rem;
+    gap: 1rem;
+}
+
+.filter-section{
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 1rem;
+}
+
+.filter-heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-heading {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.input-radio, .input-checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 2px solid var(--color-secondary);
+}
+
+.products-section {
+    margin: 2rem;
+    max-width: calc(100vw - 40rem);
+    display: flex;
+    min-width: calc(100vw - 40rem);
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 2rem;
+    margin: 2rem 1rem;
+    min-width: 30%;
+}
