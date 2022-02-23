@@ -1,0 +1,20 @@
+.cart-section {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.cart-products {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 30rem;
+}
+
+.cart-coupon {
+    display: flex;
+    flex-direction: column;
+    min-width: 30rem;
+}
